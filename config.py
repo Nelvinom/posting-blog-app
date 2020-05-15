@@ -7,7 +7,7 @@ class Config(object):
      TESTING = False
      SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://moringa:72330000@localhost/newblog'
      QUOTES_API = 'http://quotes.stormconsultancy.co.uk/random.json'
-     SECRET_KEY = ''
+     SECRET_KEY = 'him'
      SQLALCHEMY_TRACK_MODIFICATIONS = True
      UPLOADED_PHOTOS_DEST='app/static/photos'
   
