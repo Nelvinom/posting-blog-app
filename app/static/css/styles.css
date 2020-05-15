@@ -1,0 +1,79 @@
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+h1{
+   color:rgb(8, 8, 20);
+   text-align: center;
+   font-size: 40px;
+   font-family: 'Bowlby One SC', cursive;
+  }
+  p{
+   color:rgb(12, 12, 22);
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Bowlby One SC', cursive;
+  }
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(90, 35, 35, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #07495e;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:rgb(30, 255, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  #name{
+    color: black
+  }
+  
+ 
